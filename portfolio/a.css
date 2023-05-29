@@ -1,6 +1,7 @@
 body{
-    background-color: #E3FDFD;
+    background-color: #9DB2BF;
     text-align: center;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
 a{
     text-decoration: none;
@@ -12,11 +13,20 @@ hr{
     border-width: 5px;
     height: 0;
     width: 5%;
-    margin: 0px auto 0px;
+    margin: 0px auto 20px;
+    border-color: grey;
+}
+h1{
+    font-family: 'Cherry Bomb One', cursive;
+    color: #247683;
+    font-size: 4rem;
+}
+h2{
+    margin-top: 10px;
 }
 li{
     display: inline-block;
-    margin: 10px 5px;
+    margin: 5px 5px 20px;
     
 }
 ul{
@@ -51,12 +61,14 @@ ul{
 .mountain-img{
     height: 400px;
     width: 600px;
+    position: relative;
+    margin: 0px auto -78px;
 }
 .profile-img{
     height: 100px;
     border-radius: 100%;
     padding: 20px;
-    background-color: #71C9CE;
+    background-color: #27374D;
 }
 .things-img{
     height: 100px;
@@ -71,12 +83,16 @@ ul{
 /* divs css */
 
 .all-things-box{
-    background-color: #CBF1F5;
+    background-color: #526D82;
     padding: 20px;
 }
+.contact-links{
+    color: rgb(103, 125, 146);
+}
 .footer{
-    background-color: #71C9CE;
+    background-color: #27374D;
     padding: 10px 0px 50px;
+    color: rgb(67, 75, 84);
 }
 .intro-box{
     margin-top: 30px;
